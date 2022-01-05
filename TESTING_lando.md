@@ -1,5 +1,5 @@
-Lando Drupal 9 Elastic - php8, nginx, mariadb, elasticsearch
-============================================================
+Lando Drupal 9 Elasticsearch option  - php8, nginx, mariadb, elasticsearch
+==========================================================================
 
 This example exists primarily to test the following documentation:
 

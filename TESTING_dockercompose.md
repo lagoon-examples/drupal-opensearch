@@ -1,5 +1,5 @@
-Docker Compose Drupal 9 Elastic - php8, nginx, mariadb, elasticsearch
-=====================================================================
+Docker Compose Drupal 9 Elasticsearch option - php8, nginx, mariadb, elasticsearch
+==================================================================================
 
 This is a docker-compose version of the Lando example tests:
 
