@@ -24,7 +24,7 @@
         "drupal/core-recommended": "9.3.7",
         "drupal/lagoon_logs": "2.0.1",
         "drupal/search_api": "1.23.0",
-        "drupal/search_api_opensearch": "1.0.0-alpha5",
+        "drupal/search_api_opensearch": "1.0.0-alpha6",
         "drush/drush": "11.0.6",
         "zaporylie/composer-drupal-optimizations": "1.2.0"
     },
