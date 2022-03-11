@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10deff684ef8be0000890a09066de44f",
+    "content-hash": "e80efa458d94525093d227ed8e448f7f",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1873,17 +1873,17 @@
         },
         {
             "name": "drupal/search_api_opensearch",
-            "version": "1.0.0-alpha6",
+            "version": "1.0.0-alpha7",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_opensearch.git",
-                "reference": "1.0.0-alpha6"
+                "reference": "1.0.0-alpha7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-1.0.0-alpha6.zip",
-                "reference": "1.0.0-alpha6",
-                "shasum": "c8b90ffbcacb6e523721c9524e5b7b1646b73503"
+                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-1.0.0-alpha7.zip",
+                "reference": "1.0.0-alpha7",
+                "shasum": "2aed650de35047643b55395ba97c2f87301eb773"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -1899,8 +1899,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-alpha6",
-                    "datestamp": "1646864136",
+                    "version": "1.0.0-alpha7",
+                    "datestamp": "1646972178",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
