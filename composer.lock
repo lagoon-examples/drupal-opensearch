@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "affbd21288e520c6901dd0b2c0e5db8c",
+    "content-hash": "275ad2bf2dade29912753c0c93041859",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1874,17 +1874,17 @@
         },
         {
             "name": "drupal/search_api_opensearch",
-            "version": "1.0.0-alpha7",
+            "version": "1.0.0-alpha8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_opensearch.git",
-                "reference": "1.0.0-alpha7"
+                "reference": "1.0.0-alpha8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-1.0.0-alpha7.zip",
-                "reference": "1.0.0-alpha7",
-                "shasum": "2aed650de35047643b55395ba97c2f87301eb773"
+                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-1.0.0-alpha8.zip",
+                "reference": "1.0.0-alpha8",
+                "shasum": "d1a988291cb3766ba47c32ba309e1d5744de8a39"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -1900,8 +1900,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-alpha7",
-                    "datestamp": "1646972178",
+                    "version": "1.0.0-alpha8",
+                    "datestamp": "1648772350",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -3291,16 +3291,16 @@
         },
         {
             "name": "opensearch-project/opensearch-php",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opensearch-project/opensearch-php.git",
-                "reference": "d6345b5715e35cf9b14cca15cea277d2f877c742"
+                "reference": "d54af5ff2167bee3eb68d02e210283314ef74712"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/d6345b5715e35cf9b14cca15cea277d2f877c742",
-                "reference": "d6345b5715e35cf9b14cca15cea277d2f877c742",
+                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/d54af5ff2167bee3eb68d02e210283314ef74712",
+                "reference": "d54af5ff2167bee3eb68d02e210283314ef74712",
                 "shasum": ""
             },
             "require": {
@@ -3349,9 +3349,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opensearch-project/opensearch-php/issues",
-                "source": "https://github.com/opensearch-project/opensearch-php/tree/1.0.1"
+                "source": "https://github.com/opensearch-project/opensearch-php/tree/1.0.2"
             },
-            "time": "2022-02-01T05:34:22+00:00"
+            "time": "2022-02-08T08:37:31+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -10340,5 +10340,5 @@
     "platform-overrides": {
         "php": "8.0.15"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
