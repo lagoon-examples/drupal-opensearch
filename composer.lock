@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9676489b1343f5779a2fb40db5b9679e",
+    "content-hash": "b604d3ef7b12417fe40fc2b1a0ab9fc0",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1839,16 +1839,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "11.3.1",
+            "version": "11.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "77056760e59564a2edcc6c12eb483adc3cc302bb"
+                "reference": "57cd12235f0a8b3aaabc841fd6c82b64f3dffc02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/77056760e59564a2edcc6c12eb483adc3cc302bb",
-                "reference": "77056760e59564a2edcc6c12eb483adc3cc302bb",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/57cd12235f0a8b3aaabc841fd6c82b64f3dffc02",
+                "reference": "57cd12235f0a8b3aaabc841fd6c82b64f3dffc02",
                 "shasum": ""
             },
             "require": {
@@ -1867,7 +1867,7 @@
                 "php": ">=7.4",
                 "psy/psysh": "~0.11",
                 "symfony/event-dispatcher": "^4.0 || ^5.0 || ^6.0",
-                "symfony/filesystem": "^4.4 || ^5.4",
+                "symfony/filesystem": "^4.4 || ^5.4 || ^6.1",
                 "symfony/finder": "^4.0 || ^5 || ^6",
                 "symfony/polyfill-php80": "^1.23",
                 "symfony/var-dumper": "^4.0 || ^5.0 || ^6.0",
@@ -1972,7 +1972,7 @@
                 "forum": "http://drupal.stackexchange.com/questions/tagged/drush",
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/11.3.1"
+                "source": "https://github.com/drush-ops/drush/tree/11.3.2"
             },
             "funding": [
                 {
@@ -1980,7 +1980,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-23T00:29:10+00:00"
+            "time": "2022-10-24T14:01:14+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -2118,23 +2118,23 @@
         },
         {
             "name": "ezimuel/guzzlestreams",
-            "version": "3.0.1",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/guzzlestreams.git",
-                "reference": "abe3791d231167f14eb80d413420d1eab91163a8"
+                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/abe3791d231167f14eb80d413420d1eab91163a8",
-                "reference": "abe3791d231167f14eb80d413420d1eab91163a8",
+                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/b4b5a025dfee70d6cd34c780e07330eb93d5b997",
+                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~9.0"
             },
             "type": "library",
             "extra": {
@@ -2165,9 +2165,9 @@
                 "stream"
             ],
             "support": {
-                "source": "https://github.com/ezimuel/guzzlestreams/tree/3.0.1"
+                "source": "https://github.com/ezimuel/guzzlestreams/tree/3.1.0"
             },
-            "time": "2020-02-14T23:11:50+00:00"
+            "time": "2022-10-24T12:58:50+00:00"
         },
         {
             "name": "ezimuel/ringphp",
