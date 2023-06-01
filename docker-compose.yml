@@ -100,7 +100,7 @@ services:
       - db:/var/lib/mysql
 
   opensearch:
-    image: uselagoon/opensearch-2:latest
+    image: testlagoon/opensearch-2:pr-734
     labels:
       lagoon.type: opensearch
       lando.type: opensearch
