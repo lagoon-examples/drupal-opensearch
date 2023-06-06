@@ -26,7 +26,7 @@
         "drupal/lagoon_logs": "2.1.1",
         "drupal/search_api": "1.29.0",
         "drupal/search_api_opensearch": "1.0.0-beta1",
-        "drush/drush": "11.5.1",
+        "drush/drush": "11.6.0",
         "zaporylie/composer-drupal-optimizations": "1.2.0"
     },
     "require-dev": {
