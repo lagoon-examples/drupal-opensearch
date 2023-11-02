@@ -17,8 +17,9 @@ docker compose down
 # Should start up our Lagoon Drupal site successfully
 docker compose build && docker compose up -d
 
-# Ensure mariadb pod is ready to connect
-docker run --rm --net drupal-elasticsearch-default amazeeio/dockerize dockerize -wait tcp://mariadb:3306 -timeout 1m
+# Ensure mariadb and elasticsearch pods are ready to connect
+docker run --rm --net drupal-elasticsearch_default amazeeio/dockerize dockerize -wait tcp://mariadb:3306 -timeout 1m
+docker run --rm --net drupal-elasticsearch_default amazeeio/dockerize dockerize -wait tcp://elasticsearch:9200 -timeout 1m
 ```
 
 Verification commands
