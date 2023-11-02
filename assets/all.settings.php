@@ -28,12 +28,15 @@ if (getenv('LAGOON_ENVIRONMENT_TYPE') !== 'production') {
     $settings['skip_permissions_hardening'] = TRUE;
 }
 
-### Lagoon Opensearch connection.
-// WARNING: you have to create a search_api server having "opensearch" machine name at
-// /admin/config/search/search-api/add-server to make this work.
+### Lagoon Elasticsearch connection.
+// WARNING: you have to create an elasticsearch cluster called "elastic" at
+// /admin/config/search/elasticsearch-connector and a search_api server called 
+// "elastic" at /admin/config/search/search-api/add-server to make this work.
 if (getenv('LAGOON')) {
-    $config['search_api.server.opensearch']['backend_config']['connector_config']['url'] = getenv('OPENSEARCH_HOST') ?: 'http://opensearch';
-    $config['search_api.server.opensearch']['backend_config']['connector']= 'standard';
-    $config['search_api.server.opensearch']['backend'] = 'opensearch';
-    $config['search_api.server.opensearch']['name'] = 'Lagoon opensearch - Environment: ' . getenv('LAGOON_PROJECT');
-}
+    $config['elasticsearch_connector.cluster.elastic']['cluster_id'] = 'elastic';
+    $config['elasticsearch_connector.cluster.elastic']['name'] = 'elastic';
+    $config['elasticsearch_connector.cluster.elastic']['status'] = '1';
+    $config['elasticsearch_connector.cluster.elastic']['url'] = 'http://elasticsearch:9200';    
+    $config['search_api.server.elastic']['backend_config']['cluster_settings']['cluster'] = 'elastic';
+    $config['search_api.server.elastic']['name'] = 'Lagoon Elastic - Environment: ' . getenv('LAGOON_PROJECT');
+  }

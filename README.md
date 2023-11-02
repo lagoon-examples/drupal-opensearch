@@ -1,4 +1,4 @@
-# Base template for Drupal projects hosted on Lagoon
+# Base template for Drupal Elasticsearch projects hosted on Lagoon
 
 This template includes everything necessary to run on [Lagoon](https://www.github.com/uselagoon/lagoon) (in both the local development environments or on hosted Lagoon clusters.)
 
@@ -12,6 +12,7 @@ This example contains the following services:
 * PHP 8
 * NGINX
 * MariaDB 10.11
+* ElasticSearch 7.10 - Note that this image is no longer supported or maintained
 
 To see similar projects with additional services, please visit https://github.com/lagoon-examples and to find out more about the services, please visit the documentation at https://docs.lagoon.sh/lagoon
 
@@ -29,7 +30,7 @@ To see similar projects with additional services, please visit https://github.co
 1. Checkout this project repo and confirm the path is in Docker's file sharing config - https://docs.docker.com/docker-for-mac/#file-sharing
 
     ```bash
-    git clone https://github.com/lagoon-examples/drupal-opensearch.git drupal-opensearch && cd $_
+    git clone https://github.com/lagoon-examples/drupal-elasticsearch.git drupal-elasticsearch && cd $_
     ```
 
 2. Make sure you don't have anything running on port 80 on the host machine (like a web server) then run `pygmy-go up`
@@ -41,7 +42,7 @@ To see similar projects with additional services, please visit https://github.co
     docker-compose exec cli composer install
     ```
 
-4. Visit the new site @ `http://drupal-opensearch.docker.amazee.io`
+4. Visit the new site @ `http://drupal-elasticsearch.docker.amazee.io`
 
 * If any steps fail, you're safe to rerun from any point.
 Starting again from the beginning will just reconfirm the changes.
@@ -55,7 +56,7 @@ This repository is set up with a `.lando.yml` file, which allows you to use Land
 2. Checkout the project repo and confirm the path is in Docker's file sharing config - https://docs.docker.com/docker-for-mac/#file-sharing
 
     ```bash
-    git clone https://github.com/lagoon-examples/drupal-opensearch.git drupal-opensearch && cd $_
+    git clone --branch elasticsearch https://github.com/lagoon-examples/drupal-opensearch.git drupal-elasticsearch && cd $_
     ```
 
 3. Make sure you have pygmy-go stopped. Run `pygmy stop` to be sure.
@@ -72,7 +73,7 @@ lando start
 lando drush si -y
 ```
 
-6. Visit the new site @ `http://drupal-opensearch.lndo.site`
+6. Visit the new site @ `http://drupal-elasticsearch.lndo.site`
  
 7. For more information on how to configure your site, check out the [documentation](https://docs.lando.dev/config/lagoon.html).
 

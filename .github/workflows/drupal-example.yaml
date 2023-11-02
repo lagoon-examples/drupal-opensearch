@@ -5,11 +5,11 @@ on:
     branches:
       - 'main'
       - 'dev'
-      - 'opensearch'
+      - 'elasticsearch'
   pull_request:
     branches:
       - 'main'
-      - 'opensearch'
+      - 'elasticsearch'
 
 jobs:
   test-suite:

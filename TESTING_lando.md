@@ -44,7 +44,7 @@ docker ps --filter label=com.docker.compose.project=drupalopensearch | grep Up |
 lando ssh -c "env | grep LAGOON=" | grep cli-drupal
 
 # Should have the correct environment set
-lando ssh -c "env" | grep LAGOON_ROUTE | grep drupal-opensearch.lndo.site
+lando ssh -c "env" | grep LAGOON_ROUTE | grep drupal-elasticsearch.lndo.site
 lando ssh -c "env" | grep LAGOON_ENVIRONMENT_TYPE | grep development
 
 # Should be running PHP 8

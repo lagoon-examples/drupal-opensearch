@@ -1,4 +1,4 @@
-name: drupal-opensearch
+name: drupal-elasticsearch
 recipe: lagoon
 config:
   flavor: drupal
