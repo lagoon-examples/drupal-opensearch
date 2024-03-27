@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "602f37faa6bd739c0223bc8ac0fc5801",
+    "content-hash": "8dba11f645f17551c299eb3345fb83c8",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1713,17 +1713,17 @@
         },
         {
             "name": "drupal/search_api_opensearch",
-            "version": "2.0.0-beta3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_opensearch.git",
-                "reference": "2.0.0-beta3"
+                "reference": "2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.0.0-beta3.zip",
-                "reference": "2.0.0-beta3",
-                "shasum": "c2d61fda842d2f192c0bcc018e140e6c82fbbca8"
+                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "ad19d03e60fc29607a14287b66f1d65e8dc6be74"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -1733,9 +1733,8 @@
                 "php": "^8"
             },
             "require-dev": {
-                "drupal/coder": "^8.3",
-                "drupal/geofield": "^1.46",
-                "drush/drush": "^11.0"
+                "aws/aws-sdk-php": "^3.0",
+                "drupal/geofield": "^1.46"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Required when using search_api_aws_signature_connector.",
@@ -1744,11 +1743,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0-beta3",
-                    "datestamp": "1692570235",
+                    "version": "2.0.0",
+                    "datestamp": "1711512726",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -1768,6 +1767,10 @@
                 {
                     "name": "larowlan",
                     "homepage": "https://www.drupal.org/user/395439"
+                },
+                {
+                    "name": "longwave",
+                    "homepage": "https://www.drupal.org/user/246492"
                 }
             ],
             "description": "Provides an OpenSearch backend for Search API.",
@@ -3140,16 +3143,16 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.14",
+            "version": "v1.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "a86fc145edb5caedbf96527214ce3cadc9de4a32"
+                "reference": "ce0adade8b97561656ace07cdaac4751c271ea8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/a86fc145edb5caedbf96527214ce3cadc9de4a32",
-                "reference": "a86fc145edb5caedbf96527214ce3cadc9de4a32",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/ce0adade8b97561656ace07cdaac4751c271ea8c",
+                "reference": "ce0adade8b97561656ace07cdaac4751c271ea8c",
                 "shasum": ""
             },
             "require": {
@@ -3162,9 +3165,9 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "": "src/"
-                }
+                "classmap": [
+                    "src/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "include-path": [
@@ -3185,7 +3188,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
             },
-            "time": "2023-11-26T16:15:38+00:00"
+            "time": "2024-03-16T18:41:45+00:00"
         },
         {
             "name": "pear/pear_exception",
