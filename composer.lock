@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b2004320be5ca27d05e752e9eaee893",
+    "content-hash": "c668cbd9e2b1ab926303d3ea22987437",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1711,17 +1711,17 @@
         },
         {
             "name": "drupal/search_api_opensearch",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_opensearch.git",
-                "reference": "2.2.0"
+                "reference": "2.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.2.0.zip",
-                "reference": "2.2.0",
-                "shasum": "aa0cfe9af593d145f931099efbaca256c923faef"
+                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.2.1.zip",
+                "reference": "2.2.1",
+                "shasum": "9736dcd7767c13db0527c7aeef919d671080f0ad"
             },
             "require": {
                 "drupal/core": "^9 || ^10 || ^11",
@@ -1741,8 +1741,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.2.0",
-                    "datestamp": "1730191868",
+                    "version": "2.2.1",
+                    "datestamp": "1730238372",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
