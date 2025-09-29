@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8511afe8f8d7e6cbe7cf0924d8e8196",
+    "content-hash": "92255191855851ffacbab95a22292fb4",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1666,17 +1666,17 @@
         },
         {
             "name": "drupal/search_api_opensearch",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_opensearch.git",
-                "reference": "2.4.2"
+                "reference": "2.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.4.2.zip",
-                "reference": "2.4.2",
-                "shasum": "5e790ed688c968346528e486716e02a7a86a39b0"
+                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.4.3.zip",
+                "reference": "2.4.3",
+                "shasum": "e692e3914c7094a2a2073cdd8e8da69a82409ddc"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
@@ -1697,8 +1697,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.4.2",
-                    "datestamp": "1750135573",
+                    "version": "2.4.3",
+                    "datestamp": "1759119324",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1713,6 +1713,10 @@
                 {
                     "name": "acbramley",
                     "homepage": "https://www.drupal.org/user/1036766"
+                },
+                {
+                    "name": "danielveza",
+                    "homepage": "https://www.drupal.org/user/3362504"
                 },
                 {
                     "name": "kim.pepper",
