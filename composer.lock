@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b127c7e125c552c9b96ed236f20af329",
+    "content-hash": "ab92dc0bdc40205f267d34c6e0972db9",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1738,21 +1738,21 @@
         },
         {
             "name": "drupal/search_api_opensearch",
-            "version": "2.4.4",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_opensearch.git",
-                "reference": "2.4.4"
+                "reference": "2.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.4.4.zip",
-                "reference": "2.4.4",
-                "shasum": "4064a433f5e80bd23a2636a20800bcbcff400ff5"
+                "url": "https://ftp.drupal.org/files/projects/search_api_opensearch-2.5.0.zip",
+                "reference": "2.5.0",
+                "shasum": "69b6aeec37fd504c25358ee8693c6e7df98eb5ec"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
-                "drupal/search_api": "^1.34",
+                "drupal/search_api": "^1.39",
                 "guzzlehttp/guzzle": "^7.5",
                 "makinacorpus/php-lucene": "^1.1",
                 "opensearch-project/opensearch-php": "^2.4.3",
@@ -1769,8 +1769,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.4.4",
-                    "datestamp": "1759191421",
+                    "version": "2.5.0",
+                    "datestamp": "1762728088",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
